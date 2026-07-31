@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lana Youssef - CV</title>
+    <style>
+      /* ATS-friendly: single column, standard fonts, linear text, no tables/graphics */
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #000;
+        background: #e8e8e8;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11pt;
+        line-height: 1.4;
+      }
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto 0;
+        width: min(8.5in, 100%);
+        padding: 0 1rem;
+      }
+
+      .toolbar button,
+      .toolbar a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        border: 1px solid #000;
+        background: #fff;
+        color: #000;
+        padding: 0.45rem 0.9rem;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .toolbar p {
+        width: 100%;
+        text-align: center;
+        margin: 0.35rem 0 0;
+        font-size: 9pt;
+        color: #333;
+      }
+
+      .page {
+        width: min(8.5in, 100%);
+        margin: 0.75rem auto 2rem;
+        padding: 0.7in 0.75in;
+        background: #fff;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        margin: 0 0 0.2rem;
+        font-size: 18pt;
+        font-weight: 700;
+        text-align: center;
+        text-transform: none;
+      }
+
+      .contact {
+        margin: 0 0 0.85rem;
+        text-align: center;
+        font-size: 10pt;
+        color: #000;
+      }
+
+      .contact a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      h2 {
+        margin: 0.85rem 0 0.35rem;
+        padding: 0 0 0.12rem;
+        font-size: 12pt;
+        font-weight: 700;
+        text-transform: none;
+        letter-spacing: normal;
+        border-bottom: 1px solid #000;
+      }
+
+      p {
+        margin: 0 0 0.35rem;
+      }
+
+      .entry {
+        margin: 0 0 0.65rem;
+      }
+
+      .entry-header {
+        margin: 0;
+        font-weight: 700;
+      }
+
+      .entry-subheader {
+        margin: 0.05rem 0 0.25rem;
+        font-style: italic;
+      }
+
+      ul {
+        margin: 0.15rem 0 0;
+        padding-left: 1.15rem;
+      }
+
+      li {
+        margin-bottom: 0.15rem;
+      }
+
+      .skills-line {
+        margin: 0 0 0.25rem;
+      }
+
+      .skills-line strong {
+        font-weight: 700;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .toolbar {
+          display: none !important;
+        }
+
+        .page {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          box-shadow: none;
+        }
+
+        a {
+          color: #000 !important;
+          text-decoration: none;
+        }
+
+        @page {
+          margin: 0.6in;
+          size: letter;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .page {
+          padding: 1.25rem 1rem;
+          margin: 0 0 1rem;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+      <p>
+        In the print dialog, turn off Headers and footers so no URL (like localhost) appears on
+        the page. Prefer Save as PDF.
+      </p>
+    </div>
+
+    <main class="page">
+      <h1>Lana Youssef</h1>
+      <p class="contact">
+        Beirut, Lebanon | 78867414 |
+        <a href="mailto:lanayusf12@gmail.com">lanayusf12@gmail.com</a> |
+        <a href="https://linkedin.com/in/lana-youssef/">linkedin.com/in/lana-youssef</a> |
+        <a href="https://github.com/LanaYoussef">github.com/LanaYoussef</a> |
+        <a href="https://lanayoussef.github.io/Portfolio/">lanayoussef.github.io/Portfolio</a>
+      </p>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>
+          Computer Science graduate and software developer with experience building full-stack web
+          and mobile applications. Skilled in React, React Native, Node.js, ASP.NET, Java, C#,
+          REST APIs, JWT authentication, MySQL, and SQL Server. Focused on delivering end-to-end
+          features across frontend, backend, and databases.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <p class="skills-line">
+          <strong>Programming Languages:</strong> Python, Java, C#, C++, JavaScript, PHP
+        </p>
+        <p class="skills-line">
+          <strong>Web Development:</strong> HTML, CSS, JavaScript, React, Node.js, Express,
+          ASP.NET Core, REST APIs, JWT, Axios, Swagger
+        </p>
+        <p class="skills-line">
+          <strong>Mobile Development:</strong> React Native, Expo, Flutter, Android Development
+        </p>
+        <p class="skills-line">
+          <strong>Databases:</strong> MySQL, Microsoft SQL Server, Entity Framework Core, JDBC,
+          ADO.NET
+        </p>
+        <p class="skills-line">
+          <strong>Tools and Platforms:</strong> GitHub, Visual Studio Code, Visual Studio, Android
+          Studio, Linux, Windows
+        </p>
+        <p class="skills-line">
+          <strong>Soft Skills:</strong> Problem Solving, Analytical Thinking, Teamwork, Fast
+          Learning, Time Management, Communication, Adaptability, Attention to Detail
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="entry">
+          <p class="entry-header">
+            Mentor-Guided Virtual Intern | Decode Labs | Remote
+          </p>
+          <ul>
+            <li>
+              Completed mentor-guided, project-based virtual internship work with weekly milestones
+              and structured mentor feedback.
+            </li>
+            <li>
+              Delivered portfolio-ready software implementations under mentor review, focusing on
+              code quality, problem solving, and clear presentation of outcomes.
+            </li>
+            <li>
+              Followed industry-aligned remote development workflows with checkpoint-driven
+              progress tracking.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="entry">
+          <p class="entry-header">Bachelor of Science in Computer Science | July 2026</p>
+          <p class="entry-subheader">French-educated</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <div class="entry">
+          <p class="entry-header">TradeMatch - Peer-to-Peer Marketplace and Trading Platform</p>
+          <p class="entry-subheader">
+            React Native, Expo, Node.js, Express, MySQL, SQL Server, REST APIs, JWT, bcrypt
+          </p>
+          <ul>
+            <li>
+              Built a cross-platform marketplace app where users list items, buy and sell, or swipe
+              to propose trades; mutual interest opens chat for coordination.
+            </li>
+            <li>
+              Implemented JWT authentication, user profiles, messaging, order tracking,
+              notifications, and reporting with admin-ready APIs for flagged users.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <p class="entry-header">Pilates Studio Management System - Full-Stack Web Application</p>
+          <p class="entry-subheader">
+            React, Axios, ASP.NET Core, Entity Framework Core, SQL Server, JWT, Swagger
+          </p>
+          <ul>
+            <li>
+              Developed a React single-page application with authentication context, protected
+              member and admin routes, class browsing, enrollment, and cancellation workflows.
+            </li>
+            <li>
+              Designed a RESTful ASP.NET Core API with JWT authentication, BCrypt password hashing,
+              role-based authorization, and OpenAPI documentation.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <p class="entry-header">BookHive - Library Management System (Team Project, 2 Members)</p>
+          <p class="entry-subheader">Java, Swing, SQL Server, JDBC</p>
+          <ul>
+            <li>
+              Built a Java Swing desktop application connected to SQL Server for searching,
+              borrowing, and buying books, with staff tools for inventory, users, and transaction
+              reports.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <p class="entry-header">Clinic Management System - Desktop Application</p>
+          <p class="entry-subheader">C#, Windows Forms, SQL Server, ADO.NET</p>
+          <ul>
+            <li>
+              Created a Windows Forms clinic management system for doctors, patients, and
+              appointments with SQL Server storage and filtered reporting.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <p class="entry-header">LUXE - E-Commerce Frontend</p>
+          <p class="entry-subheader">HTML, CSS, JavaScript</p>
+          <ul>
+            <li>
+              Implemented a front-end e-commerce shopping flow with browse, search, cart, and
+              multi-step checkout using JavaScript and static product data.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Activities</h2>
+        <div class="entry">
+          <p class="entry-header">DOT Lebanon - AI For Social Impact</p>
+          <ul>
+            <li>
+              Successfully completed the AI For Social Impact course as part of UNICEF Generation
+              of Innovation Leaders (GIL) at Lebanese University Hadath.
+            </li>
+          </ul>
+        </div>
+        <div class="entry">
+          <p class="entry-header">Google Developer Student Club (GDSC)</p>
+          <ul>
+            <li>
+              Participated in community groups for university students interested in Google
+              developer technologies and peer learning.
+            </li>
+          </ul>
+        </div>
+        <div class="entry">
+          <p class="entry-header">Adyan Foundation - Member / Volunteer</p>
+          <ul>
+            <li>
+              Volunteered in programs supporting diversity, cultural competency, and community
+              assistance.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <p>Arabic, French, English</p>
+      </section>
+    </main>
+  </body>
+</html>
