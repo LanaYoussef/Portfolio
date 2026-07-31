@@ -9,7 +9,7 @@ export const profile = {
   location: 'Beirut, Lebanon',
   github: 'https://github.com/LanaYoussef',
   linkedin: 'https://linkedin.com/in/lana-youssef/',
-  cv: '/cv.html',
+  cv: `${import.meta.env.BASE_URL}cv.html`,
   education: {
     degree: "Bachelor's in Computer Science",
     note: 'French-educated · Graduating July 2026',
