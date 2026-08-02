@@ -12,7 +12,7 @@ export const profile = {
   cv: `${import.meta.env.BASE_URL}cv.html`,
   education: {
     degree: "Bachelor's in Computer Science",
-    note: 'French-educated · Graduating July 2026',
+    note: 'Islamic University of Lebanon · French-educated · Graduating July 2026',
   },
   languages: ['Arabic', 'French', 'English'],
 }
